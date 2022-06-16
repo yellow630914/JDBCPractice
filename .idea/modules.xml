@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Bean/Bean.iml" filepath="$PROJECT_DIR$/Bean/Bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDBCPractice.iml" filepath="$PROJECT_DIR$/JDBCPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyJDBCUtils/MyJDBCUtils.iml" filepath="$PROJECT_DIR$/MyJDBCUtils/MyJDBCUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practice/Practice.iml" filepath="$PROJECT_DIR$/Practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
     </modules>
   </component>
