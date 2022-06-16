@@ -31,6 +31,14 @@ public class PrepareStatementQuery {
 
     }
 
+    /**
+     * 回傳一個SQL搜尋語句的List
+     * @param clazz 回傳的類型,取決於哪個表的
+     * @param sql sql語句
+     * @param args 填充佔位符
+     * @param <T> 限定回傳的類型
+     * @return List<T> 回傳一個T類型的List
+     */
     public <T> List<T> getInstances(Class<T> clazz,String sql,Object ...args){
         Connection conn = null;
         PreparedStatement ps = null;
@@ -80,6 +88,14 @@ public class PrepareStatementQuery {
     }
 
 
+    /**
+     * 回傳一個sql查詢的T物件
+     * @param clazz T的類型,取決於表
+     * @param sql sql語句
+     * @param args 填充佔位符
+     * @param <T> 要取得的類型
+     * @return 單個T物件
+     */
     public <T> T getInstance(Class<T> clazz,String sql,Object ...args){
         Connection conn = null;
         PreparedStatement ps = null;
