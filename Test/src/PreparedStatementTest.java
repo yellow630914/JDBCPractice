@@ -9,6 +9,12 @@ import java.util.Properties;
 
 public class PreparedStatementTest {
 
+    @Test
+    public void test(){
+        String sql = "insert into customers(name,email,birth)values(?,?,?)";
+        update(sql,"Tom","gggg@gggg","1999-05-05");
+    }
+
     /**
      * 通用的SQL增刪改操作
      * String sql是含有佔位符的sql語句
